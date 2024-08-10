@@ -1,0 +1,452 @@
+@charset "utf-8";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+
+/* In Header Section  --- Navigation section */
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container>.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    color: white;
+    background-color: #08192D;
+    border: 2px solid red;
+    /* width: 1200px; */
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav>ul {
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+
+    list-style-type: none;
+    height: 100%;
+    margin-left: 100px;
+
+}
+
+.create-account>a {
+    position: absolute;
+    left: 950px;
+    top: 43px;
+    right: 0px;
+
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+    border: 2px solid purple;
+    height: 500px;
+    background-color: #08192def;
+    background-image: url(../images/illustration/hero-bg.png);
+}
+
+.MusicforEveryone {
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ListenNewMusic {
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph>a {
+    
+    margin-bottom: 10px;
+    padding: 1%;
+    background-color: #FC0254;
+    color: #0A183D;
+    font-size: 30px;
+
+    border-radius: 10px;
+
+}
+
+.unlimitedaccess-content>.Heading>h2 {
+    font-size: 70px;
+    padding-right: 60px;
+}
+
+.unlimitedaccess-content>.paragraph>p {
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.unlimitedaccess-content {
+    border: 2px solid orange;
+    color: #0A183D;
+
+    height: 400px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* main class ---- HowWorks Section */
+
+
+.HowWorks {
+    border: 2px solid blue;
+    height: 400px;
+    color: white;
+    background: url(../images/illustration/how-to-bg.jpg) 70%/cover no-repeat;
+}
+
+
+.HowWorks-content>h2 {
+    margin: 40px;
+    font-size: 40px;
+    position: absolute;
+    left: 0px;
+    top: 1050px;
+    right: 0px;
+}
+
+.HowWorks-content {
+    height: inherit;
+    margin: 40px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* concept-Artists Section */
+
+
+/* .paragraph>a{
+    background-color: #FC0254;
+    color: #0A183D;
+    font-size: 30px;
+    
+} */
+
+.concept-Artists {
+    border: 2px solid darkorange;
+    height: 500px;
+}
+
+.section-title>h2 {
+    font-size: 60px;
+    padding-right: 60px;
+}
+
+.section-paragraph>p {
+    font-size: 16px;
+    margin-right: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.art {
+
+    color: #0A183D;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.concept-1 {
+
+    display: inline-block;
+    width: 1000px;
+    height: inherit;
+    margin-top: 40px;
+    margin-right: 10px;
+    text-align: center;
+
+    margin: 50px 20px 0 0;
+
+    /* border: 2px solid red; */
+
+    /* box-shadow: 10px -10px 5px blue; */
+
+
+}
+
+.concepts {
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Subscription Section */
+
+.Subscription {
+    border: 2px solid #FC0254;
+    color: white;
+    height: 450px;
+    background-color: #0a183d;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Subscription-content {
+    height: inherit;
+    display: flex;
+    margin: 5%;
+}
+
+.Subscription-title>h2 {
+    padding-top: 20px;
+    font-size: 50px;
+
+}
+
+.Subscription-title>h3 {
+    padding-top: 40px;
+    color: #FC0254;
+    font-size: 20px;
+}
+
+.Subscription-title>p {
+    padding-top: 40px;
+    font-size: 16px;
+    width: 500px;
+}
+
+.Subscription-title>a {
+    /* padding-top: 2px; */
+    /* margin-bottom: 20px; */
+    background-color: #FC0254;
+}
+
+
+.feature-list {
+
+    background-color: #3e4451;
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    border-radius: 30px;
+
+    left: 800px;
+    margin-top: 50px;
+    top: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.feature-list>ul {
+
+    margin-top: 10px;
+    padding-top: 10px;
+
+    position: absolute;
+    left: 100px;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.feature-list ul li {
+    height: 80%;
+    margin-top: 20px;
+
+    list-style-type: none;
+    /* list-style-image: url(../images/illustration/CheckMark.jpg); */
+
+
+}
+
+.feature-list>ul>li>img {
+    background-color: red;
+    position: absolute;
+    right: 100px;
+
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 25px;
+    height: 25px;
+    margin: 0 50px;
+}
+
+/* Why-premium Section  */
+
+.premium-container {
+    border: 2px solid purple;
+    color: #0A183D;
+    height: 500px;
+
+}
+
+.premium-title>h2 {
+    height: inherit;
+    position: absolute;
+    padding-top: 20px;
+    margin-top: 20px;
+    left: 100px;
+
+    font-size: 60px;
+
+}
+
+.premium-paragraph>p {
+    padding-top: 40px;
+    font-size: 16px;
+    width: 500px;
+}
+
+.premium-container>.hp {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+.premium-features {
+
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/* footer Section */
+
+.footer-section {
+    background-color: #0A183D;
+    height: 400px;
+}
+
+.footer-content {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+
+.About-us {
+    width: 33.33%;
+}
+
+.About-us>h4 {
+    color: white;
+
+}
+
+.About-us>ul>li>a {
+
+    color: #6A7080;
+}
+
+
+.PRODUCTS {
+    width: 33.33%;
+}
+
+.PRODUCTS>h4 {
+    color: white;
+}
+
+.PRODUCTS>ul>li>a {
+    color: #6A7080;
+}
+
+
+.PLAYLISTS {
+    width: 33.33;
+}
+
+.PLAYLISTS>h4 {
+    color: white;
+}
+
+.PLAYLISTS>ul>li>a {
+    color: #6A7080;
+}
+
+.Copyright>p>span {
+    font-size: 30px;
+    color: #FC0254;
+}
+
+.Copyright>.logo {
+   
+    width: auto;
+    color: white;
+    font-size: 30px;
+}
+
+.Copyright>p {
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: #6A7080;
+}
+
+.socialMedia-Icon img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: #6A7080;
+}
+
+.bottomlogo {
+    margin-left: 80px;
+    width: 50%;
+}
+
+.links {
+    margin-left: 20px;
+    width: 50%;
+    display: flex;
+} 
